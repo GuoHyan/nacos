@@ -114,7 +114,7 @@ class Header extends React.Component {
               </Dropdown>
             )}
             <span className="language-switch language-switch-primary" onClick={this.switchLang}>
-              {languageSwitchButton}
+              {locale.languageSwitchButton}
             </span>
             <div className="header-menu header-menu-open">
               <ul>
